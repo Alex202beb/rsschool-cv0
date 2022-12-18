@@ -7,15 +7,31 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <header class="header">
+    <div class="container1">
+  <nav class="nav">
+    <ul class="nav-list">
+      <li class="nav-item"><a href="#contacts" class="nav-link">Contact</a></li>
+      <li class="nav-item"><a href="#educations" class="nav-link">Education</a></li>
+      <li class="nav-item"><a href="#languagess" class="nav-link">Languages</a></li>
+      <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+      <li class="nav-item"><a href="#experiece" class="nav-link">Experiece</a></li>
+      <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+      <li class="nav-item"><a href="#interest" class="nav-link">Interest</a></li>
+    </ul>
+  </nav>
+    </div>
+</header>
+<main class="main">
    <div class="container">
               <div class="left_Side">
                 <div class="profileText">
-                       <div class="imgBx"><img src="28.jpg">
+                       <div class="imgBx"><img src="28.jpg" alt="Photo">
                        </div>
-                       <h2>Kopach Aleksey<br><span>Web Developer</span></h2>
+                       <h2>Kopach Aleksey<br><span>JUNIOR FRONT-END DEVELOPER</span></h2>
                 </div>   
-                <div class="contactInfo">
-                <h3 class="title">Contact Info</h3>
+                <div class="contactInfo" id="contacts">
+                <h3 class="title">Contact</h3>
                 <ul>
                       <li>
                               <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
@@ -40,7 +56,7 @@
                 </ul>  
          </div>
 
-         <div class="contactInfo education">
+         <div class="contactInfo education" id="educations">
           <h3 class="title">Education</h3>
           <ul>
                 <li><h5>1994 - 2005</h5>
@@ -58,7 +74,7 @@
                 </li>
                   </ul>
               </div>
-              <div class="contactInfo language">
+              <div class="contactInfo language" id="languagess">
                 <h3 class="title">Languages</h3>
                 <ul>
                   <li>
@@ -76,12 +92,12 @@
                   </ul>
               </div>
               </div> 
-   <div class="right_Side">
+   <div class="right_Side" id="profile">
     <div class="about">
       <h2 class="title2">Profile</h2>
       <p>Passionate about developer  user - friendly software applications. Excellen problem -solving skills and ability to perform well in a team. Seekking to help company develop their product, as well as grow and develop my own skills as a code.</p>
     </div>
-    <div class="about">
+    <div class="about" id="experiece">
       <h2 class="title2">Experiece</h2>
       <div class="box">
         <div class="year_company">
@@ -110,22 +126,22 @@
         </div>
         <div class="text">
           <h4>Frontend Developer(Trainee)</h4>
-          <p>Developed an internal project for the trainees according to the terms of reference under the guidance of my mentor. After just three weeks I got full-time position at the company.</p>
+          <p>Developed an internal project for the trainees according to the terms of reference under the guidance of my mentor.</p>
         </div>
       </div>
     </div>
 
-  <div class="about skills">
+  <div class="about skills" id="skills">
     <h2 class="title2">Skills</h2>
     <div class="box">
       <h4>Html</h4>
       <div class="percent">
-        <div style="width: 20%"></div>
+        <div style="width: 55%"></div>
       </div>
     </div>
       <div class="box">
       <h4>CSS</h4>
-      <div class="percent"><div style="width: 20%"></div></div>
+      <div class="percent"><div style="width: 50%"></div></div>
     </div>
       <div class="box">
       <h4>JS</h4>
@@ -136,22 +152,27 @@
       <div class="percent"><div style="width: 20%"></div></div>
     </div>
   </div>
-  <div class="about code">
-    <h2 class="title2">Code<h2>
-      <p><pre></pre>function makeNegative(num) {
-        if (num < 0){
-          return num
-        }
-        if (num > 0){
-          return num * -1
-        }
-      }
-      makeNegative(-42);</pre></p>
-         </div>
-    
-    
+
+  <div class="about interest" id="interest">
+    <h2 class="title2">Interest</h2>
+    <ul>
+      <li ><i class="fa fa-book" aria-hidden="true"></i>Reading</li>
+      <li><i class="fa fa-globe" aria-hidden="true"></i>Travel</li>
+      <li><i class="fa fa-futbol-o" aria-hidden="true"></i>Sport</li>
+          </ul>
+          </div>
+           </div>
     </div>
-   </div>
-</div>
-</body>
+  </main>
+  <footer class="footer">
+    <div class="container1">
+  <nav class="nav">
+    <ul class="nav-footer">
+      <li class="nav-rs"><a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="The Rolling Scopes"></a></li>
+      <li><a href="https://github.com/Alex202beb/rsschool-cv" class="nav-ghh">Alex202beb</a></li>
+      <li>2022</li>
+    </ul>
+  </nav>
+</footer>
+  </body>
 </html>
